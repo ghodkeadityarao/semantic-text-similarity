@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/static/images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    background-color: wheat;
+}
+
+button {
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
