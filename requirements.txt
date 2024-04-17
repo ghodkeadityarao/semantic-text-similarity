@@ -4,5 +4,4 @@ pandas
 scikit-learn
 Gunicorn
 en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.3.1/en_core_web_lg-2.3.1.tar.gz#sha256=978be907fecfb9c1ab60a80a70fbc51a4ad62db91ebd672c3165f89640f05b4e
-en-core-web-sm==2.3.1
 spacy
