@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, render_template, request
+
 from task1 import compute_similarity
 
 app = Flask(__name__)
@@ -23,5 +24,5 @@ def predict():
     return jsonify(response)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
 
